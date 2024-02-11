@@ -1,0 +1,20 @@
+server:
+  port: "8010"
+
+base:
+  url: "/api"
+
+spring:
+  application:
+    name: "CustomerMicroService"
+
+  data:
+    mongodb:
+      database: "Customer"
+      uri: "mongodb://localhost:27017"
+
+
+
+
+
+

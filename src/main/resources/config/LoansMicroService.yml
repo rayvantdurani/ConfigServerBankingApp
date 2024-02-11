@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: "qa"
+
+  data:
+    mongodb:
+      Database: "Loans"
+      uri: "mongodb://localhost:27017"
+
