@@ -1,5 +1,5 @@
 server:
-  port: "8010"
+  port: 8000
 
 base:
   url: "/api"
@@ -14,7 +14,8 @@ spring:
       uri: "mongodb://localhost:27017"
 
 
-
+email:
+  name: "{cipher}8411fe0e494c3a9f127cdc1dd2e5823a6460b0de6eb2ff04f4455e97f39fb3c50996290b7ef476e8fd900fc8d8a97a36"
 
 
 

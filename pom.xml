@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.bankconfig</groupId>
 	<artifactId>ConfigServer</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>V1</version>
 	<name>ConfigServer</name>
 	<description>This is a config Server for Bank Application</description>
 	<properties>
@@ -48,8 +48,14 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.3.2</version>
+				<configuration>
+					<to>
+						<image>rayvant007/configserver:v1</image>
+					</to>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
